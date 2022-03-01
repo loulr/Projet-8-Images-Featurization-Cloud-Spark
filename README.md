@@ -1,6 +1,6 @@
 # Projet-8-Images-Featurization-Cloud-Spark
 
-Déployez un modèle dans le cloud
+# Déployez un modèle dans le cloud
 
 Vous êtes Data Scientist dans une très jeune start-up de l'AgriTech, nommée  "Fruits!", qui cherche à proposer des solutions innovantes pour la récolte des fruits.
 
@@ -13,24 +13,24 @@ Pour la start-up, cette application permettrait de sensibiliser le grand public 
 
 De plus, le développement de l’application mobile permettra de construire une première version de l'architecture Big Data nécessaire.
 
-Les données
+## Les données
 Votre collègue Paul vous indique l’existence d’un jeu de données constitué des images de fruits et des labels associés, qui pourra servir de point de départ pour construire une partie de la chaîne de traitement des données.
 
-Votre mission
+## Votre mission
 Vous êtes donc chargé de développer dans un environnement Big Data une première chaîne de traitement des données qui comprendra le preprocessing et une étape de réduction de dimension.
 
 Il n’est pas nécessaire d’entraîner un modèle pour le moment.
 
 L’important est de mettre en place les premières briques de traitement qui serviront lorsqu’il faudra passer à l’échelle en termes de volume de données !
 
-Contraintes
+## Contraintes
 Lors de son brief initial, Paul vous a averti des points suivants :
 
 Vous devrez tenir compte dans vos développements du fait que le volume de données va augmenter très rapidement après la livraison de ce projet. Vous développerez donc des scripts en Pyspark et utiliserez par exemple le cloud AWS pour profiter d’une architecture Big Data (EC2, S3, IAM), basée sur un serveur EC2 Linux.
 La mise en œuvre d’une architecture Big Data sous (par exemple) AWS peut nécessiter une configuration serveur plus puissante que celle proposée gratuitement (EC2 = t2.micro, 1 Go RAM, 8 Go disque serveur).
 Ce coût, qui devrait rester inférieur à 10 euros pour une utilisation raisonnée, reste à votre charge. L’utilisation d’un serveur local pour la conception, en limitant l’utilisation du serveur EC2 à l’implémentation et aux tests, permet de réduire sensiblement ce coût.
 
-Livrables attendus
+## Livrables attendus
 Un notebook sur le cloud contenant les scripts en Pyspark exécutables (le preprocessing et une étape de réduction de dimension).
 Les images du jeu de données initial ainsi que la sortie de la réduction de dimension (une matrice écrite sur un fichier CSV ou autre) disponible dans un espace de stockage sur le cloud.
 Un support de présentation pour la soutenance, présentant :
